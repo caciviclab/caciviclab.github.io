@@ -8,13 +8,16 @@
     <meta name="author" content="">
     <link rel="icon" href="">
 
-    <title>OpenCalifornia: an inventory of State of California open data policies</title>
+    <title>OpenCalifornia: an open data inventory</title>
 
     <!-- Bootswatch 3.3.0 core CSS (Bootswatch Paper theme) -->
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Font Awesome 4.2.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="css/font-awesome.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -78,10 +81,10 @@
         <tbody>
           <tr ng-repeat="dept in departments">
             <td>{{dept.name}}</td>
-            <td>{{dept.publisher}}</td>
-            <td>{{dept.portal}}</td>
-            <td>{{dept.structured}}</td>
-            <td>{{dept.api}}</td>
+            <td><i class="fa fa-circle fa-{{dept.publisher}}"></i></li></td>
+            <td><i class="fa fa-circle fa-{{dept.portal}}"></i></li></td>
+            <td><i class="fa fa-circle fa-{{dept.structured}}"></i></li></td>
+            <td><i class="fa fa-circle fa-{{dept.api}}"></i></li></td>
           </tr>
         </tbody>
       </table>

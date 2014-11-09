@@ -2,23 +2,26 @@
   {
     "name"        :  "First department",
     "agency"      :  "null",
-    "publsher"    :  "null",
+    "publisher"   :  "null",
     "portal"      :  "null",
     "structured"  :  "null",
     "api"         :  "null"
   },
   {
-    "name"        :  "Second department",
+    "name"        :  "null",
     "agency"      :  "null",
-    "publsher"    :  "null",
+    "publisher"   :  "null",
     "portal"      :  "null",
     "structured"  :  "null",
     "api"         :  "null"
   },
+
+
+
   {
-    "name"        :  "Third department",
+    "name"        :  "Last department",
     "agency"      :  "null",
-    "publsher"    :  "null",
+    "publisher"   :  "null",
     "portal"      :  "null",
     "structured"  :  "null",
     "api"         :  "null"
