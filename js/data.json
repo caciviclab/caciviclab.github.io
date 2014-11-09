@@ -1,0 +1,26 @@
+[
+  {
+    "name"        :  "First department",
+    "agency"      :  "null",
+    "publsher"    :  "null",
+    "portal"      :  "null",
+    "structured"  :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Second department",
+    "agency"      :  "null",
+    "publsher"    :  "null",
+    "portal"      :  "null",
+    "structured"  :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Third department",
+    "agency"      :  "null",
+    "publsher"    :  "null",
+    "portal"      :  "null",
+    "structured"  :  "null",
+    "api"         :  "null"
+  }
+]
