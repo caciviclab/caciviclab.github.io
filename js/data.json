@@ -3,10 +3,10 @@
     "name"        :  "Department of Education",
     "agency"      :  "Constitutional Office",
     "url"         :  "http://www.cde.ca.gov/index.asp",
-    "publish"     :  "null",
-    "structure"   :  "null",
-    "portal"      :  "null",
-    "api"         :  "null"
+    "publish"     :  "yes",
+    "structure"   :  "yes",
+    "portal"      :  "sorta",
+    "api"         :  "no"
   },
   {
     "name"        :  "Department of Insurance",
