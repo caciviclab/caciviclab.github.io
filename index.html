@@ -60,10 +60,11 @@
 
       <!-- Call to action -->
       <div class="jumbotron">
-        <h1>Headline</h1>
-        <p>Explanation...</p>
+        <h1>How open is State of California agency data?</h1>
+        <p>OpenCalifornia is a coalition of Code for America brigades based in California. We're crowdsourcing the status of state agency open data practices.</p>
         <p>
-          <a class="btn btn-lg btn-primary" href="#" role="button">Call to Action</a>
+          <a class="btn btn-lg btn-success" href="https://github.com/opencalifornia/opencalifornia.github.io" role="button"><i class="fa fa-github"></i></li> Contribute to the project</a>
+          <a class="btn btn-lg btn-primary" href="https://github.com/opencalifornia/opencalifornia.github.io/issues" role="button"><i class="fa fa-bullhorn"></i></li> Open an issue</a>
         </p>
       </div>
 
@@ -73,18 +74,18 @@
           <tr>
             <th>Department</th>
             <th>Publisher</th>
-            <th>Portal</th>
             <th>Structured</th>
+            <th>Portal</th>
             <th>API</th>
           </tr>
         </thead>
         <tbody>
           <tr ng-repeat="dept in departments">
-            <td>{{dept.name}}</td>
-            <td><i class="fa fa-circle fa-{{dept.publisher}}"></i></li></td>
-            <td><i class="fa fa-circle fa-{{dept.portal}}"></i></li></td>
-            <td><i class="fa fa-circle fa-{{dept.structured}}"></i></li></td>
-            <td><i class="fa fa-circle fa-{{dept.api}}"></i></li></td>
+            <td width="60%"><a href="{{dept.url}}">{{dept.name}}</a></td>
+            <td width="10%"><i class="fa fa-circle fa-{{dept.publish}}"></i></li></td>
+            <td width="10%"><i class="fa fa-circle fa-{{dept.structure}}"></i></li></td>
+            <td width="10%"><i class="fa fa-circle fa-{{dept.portal}}"></i></li></td>
+            <td width="10%"><i class="fa fa-circle fa-{{dept.api}}"></i></li></td>
           </tr>
         </tbody>
       </table>
