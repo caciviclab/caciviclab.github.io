@@ -52,7 +52,7 @@ key | value
 key | value
 --- | ---
 **yes** | Yes. Absolutely. Totally.
-**sorta** | Hmmmmm... it's hard to say. It definitely looks like someone made a decent attempt at this, but there's definitely room for improvement.
+**sorta** | Hmmmmm... it's hard to say. It looks like someone made a decent attempt at this, but there's definitely room for improvement.
 **no** | No means no.
 
 That's it. Too confusing? [Open an issue](https://github.com/opencalifornia/opencalifornia.github.io/issues) instead.
