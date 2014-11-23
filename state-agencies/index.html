@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="opencaApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="OpenCalifornia is a platform for organizing open data and civic technology projects that can be replicated and scaled throughout the state of California.">
-    <meta name="author" content="OpenCalifornia">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="icon" href="">
 
-    <title>OpenCalifornia</title>
+    <title>OpenCalifornia: State Agency Inventory</title>
 
     <!-- Bootstrap 3.3.0 core CSS (Bootswatch Paper theme) -->
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +27,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- AngularJS 1.3.2 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <!-- <script src="lib/angular.js"></script> -->
+    <script src="js/controllers.js"></script>
+
     <!-- Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -39,7 +44,7 @@
 
   </head>
 
-  <body>
+  <body ng-controller="DeptDataCtrl">
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -51,19 +56,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://opencalifornia.github.io/"><img src="images/logo.png" style="max-height:25px; margin-top: -2px;"></a> <a class="navbar-brand" href="http://opencalifornia.github.io/">OpenCalifornia</a>
+          <a class="navbar-brand" href="#">OpenCalifornia: Inventory</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-code-fork"></i> Projects <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="/state-agencies">State Agency Inventory</a></li>
-                <li><a href="/opendisclosure">OpenDisclosure</a></li>
-              </ul>
-            </li>
-            <li><a href="mailto:ash@publicinnovation.org?subject=OpenCalifornia"><i class="fa fa-envelope"></i> Contact</a></li>
+          <!--
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
           </ul>
+          -->
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -72,49 +72,64 @@
 
       <!-- Call to action -->
       <div class="jumbotron">
-        <h2>Help build a better California, together.</h2>
-        <p>OpenCalifornia is a platform for organizing open data and civic technology projects that can be replicated and scaled throughout the state of California. We're a coalition of Code for America brigades, journalists, reform groups, and public officials committed to improving California governance by making civic information more open and accessible.</p>
+        <h2>How open is State of California agency data?</h2>
+        <p>We're crowdsourcing the status of state agency open data practices.</p>
         <p>
           <a class="btn btn-lg btn-success" href="https://github.com/opencalifornia/opencalifornia.github.io" role="button"><i class="fa fa-github"></i></li> Contribute to the project</a>
           <a class="btn btn-lg btn-primary" href="https://github.com/opencalifornia/opencalifornia.github.io/issues" role="button"><i class="fa fa-bullhorn"></i></li> Open an issue</a>
         </p>
       </div>
 
-      <!-- Contributors -->
-      <div class="row">
-        <div class="col-sm-12">
-          <h3>Contributors</h3><hr>
+      <!-- Legend -->
+      <div class="row panel panel-default panel-body">
+        <div class="col-sm-4">
+          <h4>Ratings</h4>
+          <p><i class="fa fa-circle fa-yes"></i> = Yes</p>
+          <p><i class="fa fa-circle fa-sorta"></i> = Room for improvement</p>
+          <p><i class="fa fa-circle fa-no"></i> = No</p>
+          <p><i class="fa fa-circle fa-null"></i> = Unreported</p>
         </div>
-        <div class="col-sm-12">
-          <a href="http://code4sac.org/" target="_blank" class="btn btn-default btn-sm">Code for Sacramento</a>
-          <a href="http://codeforsanfrancisco.org/" target="_blank" class="btn btn-default btn-sm">Code for San Francisco</a>
-          <a href="https://www.openoakland.org/" target="_blank" class="btn btn-default btn-sm">Code for San Jose</a>
-          <a href="https://www.openoakland.org/" target="_blank" class="btn btn-default btn-sm">OpenOakland</a>
+        <div class="col-sm-8">
+          <h4>Definitions</h4>
+          <p><strong>Publisher</strong>: Does the department publish data?</p>
+          <p><strong>Structured</strong>: Is the data structured? Structured formats include those that can be opened in spreadsheets or databases. Hint: PDF is <strong>not</strong> a structured format.
+          <p><strong>Portal</strong>: Does the department have an open portal that intuitively organizes its different datasets? Does the portal include rich metadata that make the dataset meaningful to developers?</p>
+          <p><strong>API</strong>: Does the portal allow developers to consume data via an application programming interface (API)?</p>
         </div>
       </div>
 
-      <!-- Projects -->
-      <div class="row">
-        <div class="col-sm-12">
-          <h3>Our Projects</h3><hr>
+      <!-- Search box -->
+      <div class="row col-md-12">
+        <h3>Search for an agency:</h3>
+      </div>
+
+      <div class="row col-md-6">
+        <div class="form-group">
+          <input ng-model="query" class="form-control input-lg" id="inputLarge" placeholder="e.g., transportation" type="text">
         </div>
       </div>
-      <div class ="row">
-        <div class="col-sm-6">
-          <div class="panel panel-default panel-body">
-            <h4>State Agency Inventory</h4>
-            <p>An inventory on the status of state agency open data practices.</p>
-            <a class="btn btn-default btn-primary" href="/state-agencies">Learn More</a>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="panel panel-default panel-body">
-            <h4>OpenDisclosure</h4>
-            <p>Easily visualize campaign finance data for local elections.</p>
-            <a class="btn btn-default btn-primary" href="/opendisclosure">Learn More</a>
-          </div>
-        </div>
-      </div>
+
+      <!-- Data table -->
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>Department</th>
+            <th>Publisher?</th>
+            <th>Structured?</th>
+            <th>Portal?</th>
+            <th>API?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="dept in departments | filter: query">
+            <td width="60%"><a href="{{dept.url}}">{{dept.name}}</a></td>
+            <td width="10%"><i class="fa fa-circle fa-{{dept.publish}}"></i></li></td>
+            <td width="10%"><i class="fa fa-circle fa-{{dept.structure}}"></i></li></td>
+            <td width="10%"><i class="fa fa-circle fa-{{dept.portal}}"></i></li></td>
+            <td width="10%"><i class="fa fa-circle fa-{{dept.api}}"></i></li></td>
+          </tr>
+        </tbody>
+      </table>
 
     </div><!-- /container -->
 

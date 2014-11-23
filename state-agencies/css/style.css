@@ -1,0 +1,15 @@
+body {
+  min-height: 2000px;
+  padding-top: 90px;
+}
+
+/* Rating Indicators */
+.fa-yes {
+  color: #32cd32;
+}
+.fa-sorta {
+  color: #ffc40c;
+}
+.fa-no {
+  color: #fa342e;
+}

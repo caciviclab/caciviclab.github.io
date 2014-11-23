@@ -1,0 +1,956 @@
+[
+  {
+    "name"        :  "Department of Education",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://www.cde.ca.gov/index.asp",
+    "publish"     :  "yes",
+    "structure"   :  "yes",
+    "portal"      :  "sorta",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Department of Insurance",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://www.insurance.ca.gov/",
+    "publish"     :  "yes",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Secretary of State",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://www.sos.ca.gov/",
+    "publish"     :  "yes",
+    "structure"   :  "sorta",
+    "portal"      :  "sorta",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Office of Lieutenant Governor",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://ltg.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Office of Governor",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://gov.ca.gov/home.php",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Department of Justice",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://oag.ca.gov/",
+    "publish"     :  "yes",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "State Controller's Office",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://controller.ca.gov/",
+    "publish"     :  "yes",
+    "structure"   :  "yes",
+    "portal"      :  "sorta",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "State Treasurer's Office",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://treasurer.ca.gov/",
+    "publish"     :  "yes",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Board of Equalization",
+    "agency"      :  "Constitutional Office",
+    "url"         :  "http://www.boe.ca.gov/",
+    "publish"     :  "yes",
+    "structure"   :  "yes",
+    "portal"      :  "yes",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "California Community Colleges Chancellor's Office",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.cccco.edu/",
+    "publish"     :  "yes",
+    "structure"   :  "yes",
+    "portal"      :  "sorta",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Student Aid Commission",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.csac.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "California State University",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.calstate.edu/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "University of California",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.ucop.edu/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Fair Political Practices Commission",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.fppc.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Gambling Control Commission",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.cgcc.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "State Lottery",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.calottery.com/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Office of the Inspector General",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.oig.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Public Utilities Commission",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.cpuc.ca.gov/puc/",
+    "publish"     :  "sorta",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Board of State and Community Corrections",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.bscc.ca.gov/",
+    "publish"     :  "yes",
+    "structure"   :  "yes",
+    "portal"      :  "yes",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Delta Stewardship Council",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://deltacouncil.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Arts Council",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.cac.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Office of the State Public Defender",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.ospd.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Military Department",
+    "agency"      :  "Independent Agency",
+    "url"         :  "http://www.calguard.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Office of Business and Economic Development",
+    "agency"      :  "Office of the Governor",
+    "url"         :  "http://business.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Office of Planning and Research",
+    "agency"      :  "Office of the Governor",
+    "url"         :  "http://opr.ca.gov/",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Office of Emergency Services",
+    "agency"      :  "Office of the Governor",
+    "url"         :  "http://www.calema.ca.gov/Pages/default.aspx",
+    "publish"     :  "no",
+    "structure"   :  "no",
+    "portal"      :  "no",
+    "api"         :  "no"
+  },
+  {
+    "name"        :  "Transportation Agency",
+    "agency"      :  "Transportation Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Highway Patrol",
+    "agency"      :  "Transportation Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Motor Vehicles",
+    "agency"      :  "Transportation Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Transportation",
+    "agency"      :  "Transportation Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Board of Pilot Commissioners",
+    "agency"      :  "Transportation Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "High Speed Rail Authority",
+    "agency"      :  "Transportation Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Transportation Commission",
+    "agency"      :  "Transportation Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Corrections and Rehabilitation",
+    "agency"      :  "Department of Corrections and Rehabilitation",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Environmental Protection Agency",
+    "agency"      :  "Environmental Protection Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Air Resources Board",
+    "agency"      :  "Environmental Protection Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Pesticide Regulation",
+    "agency"      :  "Environmental Protection Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Toxic Substances Control",
+    "agency"      :  "Environmental Protection Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Office of Environmental Health Hazard Assessment",
+    "agency"      :  "Environmental Protection Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "State Water Resources Control Board",
+    "agency"      :  "Environmental Protection Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Resources Recycling and Recovery",
+    "agency"      :  "Environmental Protection Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Finance",
+    "agency"      :  "Department of Finance",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Health and Human Services Agency",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Aging",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Public Health",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Child Support",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Community Services and Development",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Developmental Services",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Emergency Medical Services Authority",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Health Care Services",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Managed Risk Medical Insurance Board",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of State Hospitals",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Rehabilitation",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Social Services",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Office of Statewide Health Planning and Development",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Managed Health Care",
+    "agency"      :  "Health and Human Services Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Food and Agriculture",
+    "agency"      :  "Department of Food and Agriculture",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Labor and Workforce Development Agency",
+    "agency"      :  "Labor and Workforce Development Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Employment Development Department",
+    "agency"      :  "Labor and Workforce Development Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Industrial Relations",
+    "agency"      :  "Labor and Workforce Development Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Agricultural Labor Relations Board",
+    "agency"      :  "Labor and Workforce Development Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Public Employment Relations Board",
+    "agency"      :  "Labor and Workforce Development Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Unemployment Insurance Appeals Board",
+    "agency"      :  "Labor and Workforce Development Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Workforce Investment Board",
+    "agency"      :  "Labor and Workforce Development Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Employment Training Panel",
+    "agency"      :  "Labor and Workforce Development Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Natural Resources Agency",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Coastal Commission",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Water Resources",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Convervaation Corps",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Fish and Wildlife",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Parks and Recreation",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Science Center",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California African American Museum",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "State Lands Commission",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Coastal Conservancy",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Tahoe Conservancy",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Santa Monica Mountains Conservancy",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Sacramento-San Joaquin Delta Conservancy",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Conservation",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Energy Commission",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Forestry and Fire Protection",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Native American Heritage Commission",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Wildlife Conservation Board",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "San Francisco Bay Conservation and Development Commission",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Colorado River Board of California",
+    "agency"      :  "Natural Resources Agency",
+    "url"         :  "http://www.crb.ca.gov/",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Veterans Affairs",
+    "agency"      :  "Department of Veterans Affairs",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Government Operations Agency",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Franchise Tax Board",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Technology",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Victim Compensation and Government Claims Board",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "http://www.vcgcb.ca.gov/",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Human Resources",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "State Personnel Board",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Public Employees' Retirement System",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Teachers' Retirement System",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of General Services",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Office of Administrative Law",
+    "agency"      :  "Government Operations Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Business, Consumer Services and Housing Agency",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "http://www.bcsh.ca.gov/",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Fair Employment and Housing",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Consumer Affairs",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Alcoholic Beverage Control",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Housing and Community Development",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Housing and Finance Authority",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Department of Business Oversight",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Seismic Safety Commission",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "Alcoholic Beverage Control Appeals Board",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  },
+  {
+    "name"        :  "California Horse Racing Board",
+    "agency"      :  "Business, Consumer Services and Housing Agency",
+    "url"         :  "null",
+    "publish"     :  "null",
+    "structure"   :  "null",
+    "portal"      :  "null",
+    "api"         :  "null"
+  }
+]
