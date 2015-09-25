@@ -1,30 +1,21 @@
-OpenCalifornia
+Open Disclosure - CA Civic Lab
 ========================
 
-OpenCalifornia is a platform for organizing open data and civic technology projects that can be replicated and scaled throughout the state of California.
+OpenDisclosure is a platform for organizing campaign finance data that can be replicated and scaled throughout the state of California.
 
-## Who We Are
-We're a coalition of Code for America brigades, journalists, reform groups, and public officials committed to improving California governance by making civic information more open and accessible. If you're interested in contributing to OpenCalifornia, please [open an issue](/issues) to let us know who you are and how you want to help.
+## Where do I meet you?
 
-## Projects
-We're currently working on two projects:
+We are collaborating across the state of california.  There are both weekly and monthly meetings which will appear on the [google calendar.](https://groups.google.com/forum/#!forum/opencal)
 
-1. [Creating an inventory of state agency open data practices](/state-agencies)
-2. [Expanding OpenDisclosure to serve more municipalities throughout the state](/opendisclosure)
-
-Note that each of these folders has a README that explains the purpose of the content.
+We also listen to issues here on github, meet up to talk about them in [slack](opencal.slack.com), and use [trello]() to organize collective efforts. 
 
 ## How You Can Help
-Pull requests welcome! We just ask that you follow a few guidelines:
 
-* This repo is for creating and updating pages on the [opencalifornia.github.io](http://opencalifornia.github.io/) website.
-* To create or update a page within this repo, please create a new branch.
-* Each folder that contains a page should have a README to help potential collaborators understand how they might contribute.
-* Each folder should contain its own stylesheets, scripts, and other assets.
-* Don't want to create a page on the website? [Use the Wiki instead](https://github.com/opencalifornia/opencalifornia.github.io/wiki).
-* To create a new project, simply create a new repo. For example, while the [OpenDisclosure page](/opendisclosure) contains information about OpenDisclosure, the ETL content should be a separate project that is linked the OpenDisclosure page.
+* If you are in the area, check out a [meeting.](https://groups.google.com/forum/#!forum/opencal)
+* If you are remote, then come visit us on [slack.](opencal.slack.com)
+* If you want to avoid the business of discussing with people, pull the repo, make some changes, and tell us about it with a github [issue.](https://github.com/opencalifornia/issues)
+* Say you are a fan, who just really wants to lurk and cheer us on.  View the [alpha.](caciviclab.com/disclosure)
+
+## Questions?
 
 Questions? [Open an issue](https://github.com/opencalifornia/opencalifornia.github.io/issues).
-
-## Discussions
-To keep everyone in the loop, please [use GitHub issues](/issues) to discuss things whenever possible.
