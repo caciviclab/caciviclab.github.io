@@ -13,7 +13,7 @@ We also listen to issues here on github, meet up to talk about them in [slack](h
 
 * If you are in the area, check out a [meeting.](https://groups.google.com/forum/#!forum/opencal)
 * If you are remote, then come visit us on [slack.](https://opencal.slack.com)
-* If you want to avoid the business of discussing with people, pull the repo, make some changes, and tell us about it with a github [issue.](https://github.com/opencalifornia/issues)
+* If you want to avoid the business of discussing with people - we want you!  Pull the repo, make some changes, and tell us about it with a github [issue.](https://github.com/opencalifornia/issues)
 * Say you are a fan, who just really wants to lurk and cheer us on.  View the [alpha.](https://caciviclab.com/disclosure)
 
 ## Questions?
