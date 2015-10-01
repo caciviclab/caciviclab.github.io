@@ -1,16 +1,16 @@
-OpenCalifornia
-========================
+California Civic Laboratories
+=============================
 
-OpenCalifornia is a platform for organizing open data and civic technology projects that can be replicated and scaled throughout the state of California.
+**California Civic Laboratories** is a platform for organizing open data and civic technology projects that can be replicated and scaled throughout California. 
 
 ## Who We Are
-We're a coalition of Code for America brigades, journalists, reform groups, and public officials committed to improving California governance by making civic information more open and accessible. If you're interested in contributing to OpenCalifornia, please [open an issue](/issues) to let us know who you are and how you want to help.
+**We're a coalition** of Code for America brigades, journalists, reform groups, and public officials improving California governance by making civic information more open and accessible. If you're interested in contributing to **CA Civic Labs**, please [open an issue](/issues) to let us know who you are and how you want to help. 
 
 ## Projects
 We're currently working on two projects:
 
-1. [Creating an inventory of state agency open data practices](/state-agencies)
-2. [Expanding OpenDisclosure to serve more municipalities throughout the state](/opendisclosure)
+1. [Creating an inventory of state agency open data practices](/state-agencies). 
+2. [Expanding OpenDisclosure to serve more municipalities throughout the state](/opendisclosure). OpenDisclosure shows local campaign finance information so voters and community watchdogs can better understand the flow of local political money.  
 
 Note that each of these folders has a README that explains the purpose of the content.
 
