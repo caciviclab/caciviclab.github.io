@@ -28,3 +28,11 @@ Questions? [Open an issue](https://github.com/opencalifornia/opencalifornia.gith
 
 ## Discussions
 To keep everyone in the loop, please [use GitHub issues](/issues) to discuss things whenever possible.
+
+## Contributing
+
+This site is built using [jekyll](http://jekyllrb.com/). Once installed, you can work on the site locally with:
+
+    $ jekyll serve
+
+And open your browser to [http://localhost:4000/](http://localhost:4000/).
