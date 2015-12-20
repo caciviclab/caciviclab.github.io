@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: CA Civic Lab
+email: opencal@googlegroups.com
+description: > # this means to ignore newlines until "baseurl:"
+  The California Civic Lab is a platform for organizing open data, civic
+  technology, and civic innovation projects that can be replicated and scaled
+  throughout the state of California.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://caciviclab.com" # the base hostname & protocol for your site
+twitter_username: caciviclab
+github_username:  caciviclab
+
+# Build settings
+markdown: kramdown
