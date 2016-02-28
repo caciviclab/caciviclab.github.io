@@ -58,7 +58,10 @@ title: State Agency Inventory
     {% comment %}`raw` is needed for angular curl brace expressions {% endcomment %}
     {% raw %}
     <tr ng-repeat="dept in departments | filter: query">
-      <td width="60%"><a href="{{dept.url}}">{{dept.name}}</a></td>
+      <td width="60%">
+        <a ng-if="!!dept.url" href="{{ dept.url }}">{{ dept.name }}</a>
+        <span ng-if="!dept.url">{{ dept.name }}</span>
+      </td>
       <td width="10%"><i class="fa fa-circle fa-{{dept.publish}}"></i></li></td>
       <td width="10%"><i class="fa fa-circle fa-{{dept.structure}}"></i></li></td>
       <td width="10%"><i class="fa fa-circle fa-{{dept.portal}}"></i></li></td>
