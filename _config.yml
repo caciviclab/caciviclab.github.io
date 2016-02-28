@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   technology, and civic innovation projects that can be replicated and scaled
   throughout the state of California.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://caciviclab.com" # the base hostname & protocol for your site
+url: "http://caciviclab.org" # the base hostname & protocol for your site
 twitter_username: caciviclab
 github_username:  caciviclab
 
