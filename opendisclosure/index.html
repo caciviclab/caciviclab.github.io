@@ -1,181 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The California Civic Lab is a platform for organizing open data, civic technology, and civic innovation projects that can be replicated and scaled throughout the state of California.">
-    <meta name="author" content="California Civic Lab">
-    <link rel="icon" href="">
+---
+layout: project
+title: OpenDisclosure California
+---
 
-    <title>California Civic Lab</title>
+<!-- Call to action -->
+<div class="jumbotron">
+  <h2>{{ page.title }}</h2>
+  <p>Easily visualize campaign finance data for local elections.</p>
+  <p>
+    <a class="btn btn-lg btn-success" href="https://github.com/opencalifornia/disclosure-backend" role="button"><i class="fa fa-github"></i></li> Contribute to the project</a>
+    <a class="btn btn-lg btn-primary" href="https://github.com/opencalifornia/disclosure-backend/issues" role="button"><i class="fa fa-bullhorn"></i></li> Open an issue</a>
+  </p>
+</div>
 
-    <!-- Bootstrap 3.3.0 core CSS (Bootswatch Paper theme) -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+<!-- Help wanted -->
+<div class="row">
+  <div class="col-sm-12">
+    <h3>Help wanted</h3><hr>
+    <p>We're looking for help across the board, technical and non-technical background. Let us know if you can help, or look through our <a href="https://github.com/opencalifornia/disclosure-backend/issues">Github issues</a> for something interesting.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <ul>
+      <li>Campaign finance experts</li>
+      <li>Data analysts</li>
+      <li>Voters and users</li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <ul>
+      <li>Python/Django developers</li>
+      <li>Javascript developers</li>
+      <li>Community organizers</li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <h3>Get involved</h3><hr>
+    <p>We meet at our local <a href="http://www.codeforamerica.org/brigade/">Code For America Brigades</a> in California. You can join our virtual hack session Sundays from 11am-2pm PT. Ping us on <a href="http://slack.caciviclab.org/">slack</a>. Check out our <a href="#resources">resources</a> below for more information.</p>
+    <p>If you’re local to one of our participating brigades, come to one of our <a href="/#contributors">meetups</a> and ask for the Campaign Finance group.</p>
+  </div>
+</div>
 
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+<!-- Deployments -->
+<div class="row">
+  <div class="col-sm-12">
+    <h3>Where It's Been Deployed</h3><hr>
+  </div>
+</div>
+<div class ="row">
+  <div class="col-sm-6">
+    <div class="panel panel-default panel-body">
+      <h4>City of Oakland</h4>
+      <p>a project of OpenOakland and the Public Ethics Commission</p>
+      <a class="btn btn-default btn-primary" href="http://www.opendisclosure.io/" target="_blank"><i class="fa fa-rocket"></i> See it in Action</a>
+      <a class="btn btn-default btn-default" href="https://github.com/openoakland/opendisclosure" target="_blank"><i class="fa fa-github"></i> Contribute</a>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="panel panel-default panel-body">
+      <h4>City and County of San Francisco</h4>
+      <p>a project of Code for San Francisco</p>
+      <a class="btn btn-default btn-primary" href="http://transparentvoting.com/" target="_blank"><i class="fa fa-rocket"></i> See it in Action</a>
+      <a class="btn btn-default btn-default" href="https://github.com/ajmobidesign/hack-the-election-sf" target="_blank"><i class="fa fa-github"></i> Contribute</a>
+    </div>
+  </div>
+</div>
+<div class ="row">
+  <div class="col-sm-6">
+    <div class="panel panel-default panel-body">
+      <h4>City of San Jose</h4>
+      <p>a project of Code for San Jose</p>
+      <a class="btn btn-default btn-primary" href="http://codeforsanjose.com/opendsj/" target="_blank"><i class="fa fa-rocket"></i> See it in Action</a>
+      <a class="btn btn-default btn-default" href="https://github.com/codeforsanjose/OpenDSJv2" target="_blank"><i class="fa fa-github"></i> Contribute</a>
+    </div>
+  </div>
+</div>
 
-    <!-- Font Awesome 4.2.0 -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- <link href="css/font-awesome.css" rel="stylesheet"> -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-53902941-3', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-  </head>
-
-  <body>
-
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://caciviclab.github.io/opendisclosure">CA Civic Lab: OpenDisclosure</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <div class="container">
-
-      <!-- Call to action -->
-      <div class="jumbotron">
-        <h2>OpenDisclosure</h2>
-        <p>Easily visualize campaign finance data for local elections.</p>
-        <p>
-          <a class="btn btn-lg btn-success" href="https://github.com/opencalifornia/disclosure-backend" role="button"><i class="fa fa-github"></i></li> Contribute to the project</a>
-          <a class="btn btn-lg btn-primary" href="https://github.com/opencalifornia/disclosure-backend/issues" role="button"><i class="fa fa-bullhorn"></i></li> Open an issue</a>
-        </p>
-      </div>
-
-      <!-- Help wanted -->
-      <div class="row">
-        <div class="col-sm-12">
-          <h3>Help wanted</h3><hr>
-          <p>We're looking for help across the board, technical and non-technical background. Let us know if you can help, or look through our <a href="https://github.com/opencalifornia/disclosure-backend/issues">Github issues</a> for something interesting.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <ul>
-            <li>Campaign finance experts</li>
-            <li>Data analysts</li>
-            <li>Voters and users</li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <ul>
-            <li>Python/Django developers</li>
-            <li>Javascript developers</li>
-            <li>Community organizers</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <h3>Get involved</h3>
-          <p>We meet at our local <a href="http://www.codeforamerica.org/brigade/">Code For America Brigades</a> in California. You can join our virtual hack session Sundays from 11am-2pm PT. Ping us on <a href="http://slack.caciviclab.org/">slack</a>. Check out our <a href="#resources">resources</a> below for more information.</p>
-          <p>If you’re local to one of our participating brigades, come to one of our <a href="/#contributors">meetups</a> and ask for the Campaign Finance group.</p>
-        </div>
-      </div>
-
-      <!-- Deployments -->
-      <div class="row">
-        <div class="col-sm-12">
-          <h3>Where It's Been Deployed</h3><hr>
-        </div>
-      </div>
-      <div class ="row">
-        <div class="col-sm-6">
-          <div class="panel panel-default panel-body">
-            <h4>City of Oakland</h4>
-            <p>a project of OpenOakland and the Public Ethics Commission</p>
-            <a class="btn btn-default btn-primary" href="http://www.opendisclosure.io/" target="_blank"><i class="fa fa-rocket"></i> See it in Action</a>
-            <a class="btn btn-default btn-default" href="https://github.com/openoakland/opendisclosure" target="_blank"><i class="fa fa-github"></i> Contribute</a>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="panel panel-default panel-body">
-            <h4>City and County of San Francisco</h4>
-            <p>a project of Code for San Francisco</p>
-            <a class="btn btn-default btn-primary" href="http://transparentvoting.com/" target="_blank"><i class="fa fa-rocket"></i> See it in Action</a>
-            <a class="btn btn-default btn-default" href="https://github.com/ajmobidesign/hack-the-election-sf" target="_blank"><i class="fa fa-github"></i> Contribute</a>
-          </div>
-        </div>
-      </div>
-      <div class ="row">
-        <div class="col-sm-6">
-          <div class="panel panel-default panel-body">
-            <h4>City of San Jose</h4>
-            <p>a project of Code for San Jose</p>
-            <a class="btn btn-default btn-primary" href="http://codeforsanjose.com/opendsj/" target="_blank"><i class="fa fa-rocket"></i> See it in Action</a>
-            <a class="btn btn-default btn-default" href="https://github.com/codeforsanjose/OpenDSJv2" target="_blank"><i class="fa fa-github"></i> Contribute</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Resources -->
-      <div class="row">
-        <div class="col-sm-12">
-          <h3 id="resources">Resources</h3><hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <h4 id="contact">Contact</h4>
-          <dl>
-            <dt>Email list</dt>
-            <dd><a href="https://groups.google.com/forum/#!forum/opencal">Google Group</a></dd>
-            <dt>Chat</dt>
-            <dd><a href="http://slack.caciviclab.org/">slack.caciviclab.org</a></dd>
-            <dt>Github</dt>
-            <dd><a href="https://github.com/caciviclab">California Civic Lab</a></dd>
-          </dl>
-        </div>
-        <div class="col-sm-6">
-          <h4 id="references">References</h4>
-          <ul>
-            <li><a href="https://github.com/caciviclab/caciviclab.github.io/wiki">Project wiki</a></li>
-            <li><a href="https://github.com/caciviclab/caciviclab.github.io/wiki/Glossary">Glossary of terms</a></li>
-            <li><a href="https://github.com/caciviclab/caciviclab.github.io/wiki/References">Additional resources</a></li>
-          </ul>
-        </div>
-      </div>
-
-
-    </div><!-- /container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- <script src="lib/jquery-1.11.1.js"></script> -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <!-- <script src="lib/bootstrap.js"></script> -->
-
-  </body>
-</html>
+<!-- Resources -->
+<div class="row">
+  <div class="col-sm-12">
+    <h3 id="resources">Resources</h3><hr>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <h4 id="contact">Contact</h4>
+    <dl>
+      <dt>Email list</dt>
+      <dd><a href="https://groups.google.com/forum/#!forum/opencal">Google Group</a></dd>
+      <dt>Chat</dt>
+      <dd><a href="http://slack.caciviclab.org/">slack.caciviclab.org</a></dd>
+      <dt>Github</dt>
+      <dd><a href="https://github.com/caciviclab">California Civic Lab</a></dd>
+    </dl>
+  </div>
+  <div class="col-sm-6">
+    <h4 id="references">References</h4>
+    <ul>
+      <li><a href="https://github.com/caciviclab/caciviclab.github.io/wiki">Project wiki</a></li>
+      <li><a href="https://github.com/caciviclab/caciviclab.github.io/wiki/Glossary">Glossary of terms</a></li>
+      <li><a href="https://github.com/caciviclab/caciviclab.github.io/wiki/References">Additional resources</a></li>
+    </ul>
+  </div>
+</div>
