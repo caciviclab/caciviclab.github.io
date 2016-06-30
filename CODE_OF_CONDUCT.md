@@ -2,9 +2,9 @@
 
 _Forked from [Code for America’s Code of Conduct](https://github.com/codeforamerica/codeofconduct)._
 
-## Code for America’s Code of Conduct
+## CA Civic Lab’s Code of Conduct
 
-The Code for America community expects that Code for America network activities,
+The CA Civic Lab community expects that CA Civic Lab network activities,
 events, and digital forums:
 
 1. Are a safe and respectful environment for all participants.
@@ -30,44 +30,20 @@ events, and digital forums:
 12. Provide an environment where people are free from discrimination or
     harassment.
 
-Code for America reserves the right to ask anyone in violation of these policies
-not to participate in Code for America network activities, events, and digital
+CA Civic Lab reserves the right to ask anyone in violation of these policies
+not to participate in CA Civic Lab network activities, events, and digital
 forums.
 
 
-## Code for America’s Anti-Harassment Policy
+## CA Civic Lab’s Anti-Harassment Policy
 
-This anti-harassment policy is based on <a
-href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">the
-example policy</a> from the Geek Feminism wiki, created by the Ada Initiative
-and other volunteers.
-
-This policy is based on several other policies, including the Ohio LinuxFest
-anti-harassment policy, written by Esther Filderman and Beth Lynn Eicher, and
-the Con Anti-Harassment Project. Mary Gardiner, Valerie Aurora, Sarah Smith, and
-Donna Benjamin generalized the policies and added supporting material. Many
-members of LinuxChix, Geek Feminism and other groups contributed to this work.
-
-* * * 
-
-All Code for America network activities, events, and digital forums and their
-staff, presenters, and participants are held to an anti-harassment policy,
-included below.
-
-In addition to governing our own events by this policy, Code for America will
-only lend our brand and fund groups that offer an anti-harassment policy to
-their attendees. For information on how to offer an anti-harassment policy to
-your group, <a
-href="https://docs.google.com/a/codeforamerica.org/document/d/1Zg2FDt7awgfCmdcbzMwKHMb1A7KDOhs_z7ibCb3TLLQ/edit">see
-this guide</a>.
-
-Code for America is dedicated to providing a harassment-free experience for
+CA Civic Lab is dedicated to providing a harassment-free experience for
 everyone regardless of gender, gender identity and expression, sexual
 orientation, disability, physical appearance, body size, race, age, or religion.
 We do not tolerate harassment of staff, presenters, and participants in any
-form. Sexual language and imagery is not appropriate for any Code for America
+form. Sexual language and imagery is not appropriate for any CA Civic Lab
 event or network activity, including talks. Anyone in violation of these
-policies may be expelled from Code for America network activities, events, and
+policies may be expelled from CA Civic Lab network activities, events, and
 digital forums, at the discretion of the event organizer or forum administrator.
 
 Harassment includes but is not limited to: offensive verbal or written comments
@@ -80,7 +56,7 @@ exclusion; and patronizing language or action.
 
 If a participant engages in harassing behavior, the organizers may take any
 action they deem appropriate, including warning the offender or expulsion from
-Code for America network activities, events, and digital forums.
+CA Civic Lab network activities, events, and digital forums.
 
 If you are being harassed, notice that someone else is being harassed, or have
 any other concerns, please contact a member of the event staff or forum
@@ -93,13 +69,14 @@ to feel safe for the duration of the event.
 If you cannot reach an event organizer or forum administrator and/or it is an
 emergency, please call 911 and/or remove yourself from the situation.
 
-You can also contact Code for America about harassment at
-safespace@codeforamerica.org and feel free to use the email template below. Code
-for America staff acknowledge that we are not always in a position to evaluate
-a given situation due to the number of events and the fact that our team is
-not always present. However, we are hopeful that by providing these guidelines
-we are establishing a community that jointly adheres to these values and can
-provide an environment that is welcoming to all.
+You can also contact CA Civic Lab about harassment at
+[safe-space-caciviclab@googlegroups.com](mailto:safe-space-caciviclab@googlegroups.com)
+and feel free to use the email template below. CA Civic Lab staff acknowledge
+that we are not always in a position to evaluate a given situation due to the
+number of events and the fact that our team is not always present. However, we
+are hopeful that by providing these guidelines we are establishing a community
+that jointly adheres to these values and can provide an environment that is
+welcoming to all.
 
 We value your attendance and hope that by communicating these expectations
 widely we can all enjoy a harassment-free environment.
@@ -108,7 +85,7 @@ widely we can all enjoy a harassment-free environment.
 
 SUBJECT: Safe Space alert at [EVENT NAME]
 
-I am writing because of harassment at a Code for America Communities event,
+I am writing because of harassment at a CA Civic Lab Communities event,
 (NAME, PLACE, DATE OF EVENT).
 
 You can reach me at (CONTACT INFO). Thank you.
