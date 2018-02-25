@@ -33,6 +33,7 @@ To keep everyone in the loop, please [use GitHub issues](/issues) to discuss thi
 
 This site is built using [jekyll](http://jekyllrb.com/). Once installed, you can work on the site locally with:
 
-    $ jekyll serve
+    $ bundle install
+    $ bundle exec jekyll serve
 
 And open your browser to [http://localhost:4000/](http://localhost:4000/).
