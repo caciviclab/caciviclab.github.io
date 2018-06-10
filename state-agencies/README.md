@@ -1,9 +1,5 @@
-OpenCalifornia
-========================
+# California Open Data Index
 
-OpenCalifornia is a coalition of Code for America brigades in California.
-
-## About this Project
 We're crowdsourcing the status of state agency open data practices. The State of California currently lacks a coordinated and strategic open data strategy. However, there are pockets of activity whereby some departments are publishing their datasets in machine-readable formats. This project exists to track that progress.
 
 ## How You Can Help
@@ -55,9 +51,9 @@ key | value
 **sorta** | Hmmmmm... it's hard to say. It looks like someone made a decent attempt at this, but there's definitely room for improvement.
 **no** | No means no.
 
-That's it. Too confusing? [Open an issue](https://github.com/opencalifornia/opencalifornia.github.io/issues) instead.
+That's it. Too confusing? [Open an issue](https://github.com/caciviclab/caciviclab.github.io/issues) instead.
 
 ## Developing Locally
 If you decide to pull down this repo, you'll need to use Firefox or Safari to preview changes. Chrome's [same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) will prevent you from consuming the data.json file. Otherwise, this is just static html with some AngularJS.
 
-This is in very early development. If you plan on adding major features or changing the data schema, please give us a heads-up by opening an [issue](https://github.com/opencalifornia/opencalifornia.github.io/issues).
+This is in very early development. If you plan on adding major features or changing the data schema, please give us a heads-up by opening an [issue](https://github.com/caciviclab/caciviclab.github.io/issues).
