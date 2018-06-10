@@ -1,20 +1,16 @@
 # Contributing
 
-We are a coalition of brigades, all volunteers from the Bay Area. We would love
-to get help from folks across the state to help us in building a database of
-campaign finance data for local jurisdictions across the state.
+We are a coalition of brigades, all volunteers from the California Bay Area. We
+would love to get help from folks across the state to help us in building
+a database of campaign finance data for local jurisdictions across the state.
 
 
-## Code of conduct
+## Code of Conduct
 
-Open California is dedicated to providing a respectful, harassment-free
-community for everyone. We do not tolerate harassment or bullying of any
-community member in any form. This does not only extend to members of Open
-California, but to anyone who chooses to become involved in the larger community
-of users, developers and integrators through events or interactions.
-
-This Code of Conduct has been adapted from the [Plone Foundation](http://plone.org/foundation/materials/foundation-resolutions/code-of-conduct) and is licensed
-under a [Creative Commons Attribution-Share Alike 3.0 Unported license](http://creativecommons.org/licenses/by-sa/3.0/).
+CA Civic Lab is dedicated to providing a respectful, harassment-free community
+for everyone. We do not tolerate harassment or bullying of any community member
+in any form. By participating, you agree to our full [Code of
+Conduct](CODE_OF_CONDUCT.md).
 
 
 ## We work remotely
