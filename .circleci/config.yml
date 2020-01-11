@@ -6,8 +6,17 @@ jobs:
       - image: circleci/ruby:2.6-node
     steps:
       - checkout
-      - run: bundle install
-      - run: bundle exec jekyll build
+      - restore_cache:
+          keys:
+            - v1-bundler-{{ checksum "Gemfile.lock" }}
+            - v1-bundler-
+      - run: bundle install --path vendor/bundle
+      - save_cache:
+          key: v1-bundler-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run: make build
+      - run: make test
 
 
 workflows:
