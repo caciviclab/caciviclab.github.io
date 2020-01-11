@@ -59,7 +59,7 @@ title: State Agency Inventory
     {% raw %}
     <tr ng-repeat="dept in departments | filter: query">
       <td width="60%">
-        <a ng-if="!!dept.url" href="{{ dept.url }}">{{ dept.name }}</a>
+        <a ng-if="!!dept.url" href="{{ dept.url }}" data-proofer-ignore>{{ dept.name }}</a>
         <span ng-if="!dept.url">{{ dept.name }}</span>
       </td>
       <td width="10%"><i class="fa fa-circle fa-{{dept.publish}}"></i></li></td>

@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/caciviclab/caciviclab.github.io.svg?style=svg)](https://circleci.com/gh/caciviclab/caciviclab.github.io)
+
 CA Civic Lab
 =============================
 
